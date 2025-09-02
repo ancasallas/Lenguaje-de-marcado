@@ -15,12 +15,10 @@
   text-align:justify;
 }
 .image{ 
-  max-width: 80%;
-  height: 80%; 
+  max-width: 100%;   
+  height: auto;      
+  display:block;
 }
-
-
-
 .primero{
 	color: 121212;
 	font-family: arial;
