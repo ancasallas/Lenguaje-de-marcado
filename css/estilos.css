@@ -1,0 +1,165 @@
+.divisor{
+  display:flex;
+  gap:20px;
+  align-items:flex-start;
+}
+
+
+.columna1{
+  flex:0 0 500px;         
+}
+
+.columna2{
+  flex:1;
+  font-size:18px;
+  text-align:justify;
+}
+.image{ 
+  max-width: 80%;
+  height: 80%; 
+}
+
+
+
+.primero{
+	color: 121212;
+	font-family: arial;
+	font-size: 30px;	
+	text-align: center;
+}
+.segundo{
+	color: #121212;
+	font-family: arial;
+	font-size: 100%;	
+	text-align: left;
+}
+
+p {
+	color: #121212;
+	font-family: arial;
+	font-size: 80%;	
+
+  
+}
+
+h3{
+	color: #121212;
+	font-family: arial;
+	font-size: 100%;	
+  
+}
+
+pre {
+	color: #121212;
+	font-family: arial;
+	font-size: 80%;	
+  
+}
+.bordec {
+  background-color: #bddbff;
+  color: #21211d;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: arial;
+  font-size: 25px;	
+  max-width: 600px;       
+  margin: 20px auto;   
+ 
+}
+
+.borde {
+  background-color: #bddbff;
+  color: #21211d;
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-align: left;
+  font-family: arial;
+  font-size: 20px;
+  max-width: 400px;
+ 
+}
+nav ul li {
+  margin-bottom: 25px; 
+}
+
+.imag{
+  max-width: 80%;
+  height: 80%;
+}
+.mapa {
+  width: 100%; 
+  height: 100%;  
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #fafeff;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #21211d;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 550px; /* only for demonstration, should be removed */
+  background: #fafeff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 50px;
+  width: 70%;
+  background-color: #fafeff;
+  height: 550px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f1faff;
+  padding: 10px;
+  text-align: center;
+  color: #21211d;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+iframe {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+
+

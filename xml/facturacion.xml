@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<facturacion>
+	<factura>
+	<encabezado>
+	<fecha>
+		<dia>30</dia>
+		<mes>08</mes>
+		<año>2025</año>
+	</fecha>
+	<cliente>Ministerio Minas y Energia</cliente>
+	<NIT>899999022-1</NIT>
+	<Razon_social>Publica</Razon_social>
+	<telefono>12200300</telefono>
+	<dirreccion>Calle 43 # 57 -31, Can, Bogota</dirreccion>
+	</encabezado>
+	<servicio id="1">
+		<descripcion>Evaluación y análisis espacial</descripcion>
+		<subservicio>
+			<descripcion>Identificación de áreas de influencia</descripcion>
+			<actividad>Georreferenciación dron</actividad>
+				<precio>1.00.000$cop</precio>
+				<unidad>50</unidad>
+				<medida>m2</medida>
+			
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+			<actividad>consultoria Herramientas SIG</actividad>
+				<precio>170.000$cop</precio>
+				<unidad>1</unidad>
+				<medida>hora</medida>	
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>modelacion de riesgos riesgos ambientales, sociales y economico</descripcion>
+			<actividad> Mapas modelacion riesgos </actividad>
+				<precio>200.000$ </precio>
+				<unidad>2</unidad>
+				<medida>UN</medida>
+		</subservicio>
+		
+	</servicio>
+	<servicio id="2">
+		<descripcion>Coordinación de proyectos geoespaciales</descripcion>
+		<subservicio>
+			<descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+			<actividad>comisión topografica</actividad>
+				<precio>600.000$cop</precio>
+				<unidad>1</unidad>
+				<medida>dia</medida>
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>Estandarización de procesos cartográficos y de datos.</descripcion>
+			<actividad>planos CTM12 </actividad>
+				<precio>100.000$ </precio>
+				<unidad>3</unidad>
+				<medida>UN</medida>
+		</subservicio>
+	</servicio>
+		
+	</factura>
+	<factura>
+	<encabezado>
+	<fecha>
+		<dia>30</dia>
+		<mes>08</mes>
+		<año>2025</año>
+	</fecha>
+	<cliente>Agencia Nacional de tierras</cliente>
+	<NIT>899999022-1</NIT>
+	<Razon_social>Publica</Razon_social>
+	<telefono>12200300</telefono>
+	<dirreccion>Calle 43 # 57 -31, Can, Bogota</dirreccion>
+	</encabezado>
+	<servicio id="1">
+		<descripcion>Evaluación y análisis espacial</descripcion>
+		<subservicio>
+			<descripcion>Identificación de áreas de influencia</descripcion>
+			<actividad>Georreferenciación dron</actividad>
+				<precio>1.00.000$cop</precio>
+				<unidad>50</unidad>
+				<medida>m2</medida>
+			
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+			<actividad>consultoria Herramientas SIG</actividad>
+				<precio>170.000$cop</precio>
+				<unidad>1</unidad>
+				<medida>hora</medida>	
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>modelacion de riesgos riesgos ambientales, sociales y economico</descripcion>
+			<actividad> Mapas modelacion riesgos </actividad>
+				<precio>200.000$ </precio>
+				<unidad>2</unidad>
+				<medida>UN</medida>
+		</subservicio>
+		
+	</servicio>
+	<servicio id="2">
+		<descripcion>Coordinación de proyectos geoespaciales</descripcion>
+		<subservicio>
+			<descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+			<actividad>comisión topografica</actividad>
+				<precio>600.000$cop</precio>
+				<unidad>1</unidad>
+				<medida>dia</medida>
+		</subservicio>
+		
+		<subservicio>
+			<descripcion>Estandarización de procesos cartográficos y de datos.</descripcion>
+			<actividad>planos CTM12 </actividad>
+				<precio>100.000$ </precio>
+				<unidad>3</unidad>
+				<medida>UN</medida>
+		</subservicio>
+	</servicio>
+		
+	</factura>
+</facturacion>
+
+
+

@@ -1,0 +1,29 @@
+function xml2html() {
+	if (window.XMLHttpRequest)
+	  {// codigo para IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp = new XMLHttpRequest();
+	  }
+	else
+	  {// codigo para IE6, IE5
+	  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	xmlhttp.open("GET","../xml/facturacion.xml",false);
+	xmlhttp.send();
+	xmlDoc=xmlhttp.responseXML; 
+	document.write("<H1>Facturación</H1>");
+	document.write("<table border=1 style='color:black'><tr><th>cliente</th><th>NIT</th><th>Razon social</th><th>telefono</th></tr>");
+	var x = xmlDoc.getElementsByTagName("encabezado");
+	for (i=0;i<x.length;i++)
+	  { 
+	  document.write("<tr><td>");
+	  document.write(x[i].getElementsByTagName("cliente")[0].childNodes[0].nodeValue);
+	  document.write("</td><td>");
+	  document.write(x[i].getElementsByTagName("NIT")[0].childNodes[0].nodeValue);
+	  document.write("</td><td>");
+	  document.write(x[i].getElementsByTagName("Razon_social")[0].childNodes[0].nodeValue);
+	  document.write("</td><td>");
+	  document.write(x[i].getElementsByTagName("telefono")[0].childNodes[0].nodeValue);
+	  document.write("</td></tr>");
+	  }
+	document.write("</table>");
+}
