@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="500px" height="500px" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="100" cy="100" r="100" fill="yellow" stroke ="blue"/>
+    <polygon points="200,250 250,200 300,250 300,300 280,340 250,300 210,270 " style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    <text x="250" y="250" fill="black">Universidad Nacional de colombia </text>
+    <line x1="290" y1="340" x2="310" y2="300" style="stroke:red;stroke-width:2" />
+  
 </svg>
