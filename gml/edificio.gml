@@ -2,11 +2,12 @@
 <un:FeatureCollection
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xmlns:gml="http://www.opengis.net/gml"
-	 xmlns:un="http://udistrital.edu.co/un">
+	 xmlns:un="http://udistrital.edu.co/un"
+	 srsName="EPSG:4326">
   <gml:boundedBy>
     <gml:Box>      
-		<gml:coord><gml:X>-74.094696</gml:X><gml:Y>4.623074</gml:Y><gml:Z>0</gml:Z></gml:coord>
-		<gml:coord><gml:X>-74.077272</gml:X><gml:Y>4.643988</gml:Y><gml:Z>0</gml:Z></gml:coord>
+		<gml:coord><gml:X>-74.099012</gml:X><gml:Y>4.624486</gml:Y><gml:Z>0</gml:Z></gml:coord>
+		<gml:coord><gml:X>-74.068929</gml:X><gml:Y>4.653174</gml:Y><gml:Z>0</gml:Z></gml:coord>
     </gml:Box>
   </gml:boundedBy>                                                         
   <gml:featureMember>
@@ -31,8 +32,10 @@
 			</gml:outerBoundaryIs>
 		</gml:Polygon>
 	  </un:geometryProperty>
-      <un:Name></un:Name>
-      <un:Description>Facultad de medicina UN</un:Description>
+      <un:Nombre>Facultad de medicina UN</un:Nombre>
+      <un:descripcion>Edificio 1</un:descripcion>
+	  <un:tipo>Educativo</un:tipo>
+	  <un:direccion>Calle 26 # 25 - 50</un:direccion>
     </un:edificio>
   </gml:featureMember>
   <gml:featureMember>
@@ -62,8 +65,10 @@
 			</gml:outerBoundaryIs>
 		</gml:Polygon>
 	  </un:geometryProperty>
-      <un:Name></un:Name>
       <un:Nombre>Edificio 2</un:Nombre>
+      <un:descripcion>Edificio 2</un:descripcion>
+      <un:tipo>Educativo</un:tipo>
+      <un:direccion>Calle 26 # 25 - 50</un:direccion>
     </un:edificio>
   </gml:featureMember>
   <gml:featureMember>
@@ -111,8 +116,10 @@
 			</gml:outerBoundaryIs>
 		</gml:Polygon>
 	  </un:geometryProperty>
-      <un:Name></un:Name>
-      <un:Nombre>Facultad de ingeniria</un:Nombre>
+      <un:Nombre>Facultad de ingeniería</un:Nombre>
+      <un:descripcion>Edificio 3</un:descripcion>
+      <un:tipo>Educativo</un:tipo>
+      <un:direccion>Calle 26 # 25 - 50</un:direccion>
     </un:edificio>
   </gml:featureMember>
 </un:FeatureCollection>

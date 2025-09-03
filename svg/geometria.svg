@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="500px" height="500px" xmlns="http://www.w3.org/2000/svg">
-    <polygon points="200,250 250,200 300,250 300,300 280,340 250,300 210,270 " style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
-    <text x="150" y="190" fill="black">Universidad Nacional de colombia </text>
-    <polygon points="30,20 50,50 20,50" style="fill:lime;stroke:black;stroke-width:3" />
+    <polygon points="200,250 250,200 300,250 300,300 280,340 250,300 210,270 " style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+    <text x="250" y="260" fill="White">UN</text>
+    <polygon points="30,20 50,50 20,50" style="fill:black;stroke:black;stroke-width:3" />
     <text x="25" y="10" fill="black">N</text>
     <line x1="280" y1="360" x2="310" y2="300" style="stroke:red;stroke-width:2" />
     <line x1="310" y1="300" x2="310" y2="250" style="stroke:red;stroke-width:2" />
-    <line x1="310" y1="250" x2="255" y2="190" style="stroke:red;stroke-width:2" />
+    <line x1="310" y1="250" x2="250" y2="190" style="stroke:red;stroke-width:2" />
+    <text x="300" y="360" fill="red" font-size="15" transform="rotate(300 300,360)">Avenida NQS</text>
     <line x1="310" y1="250" x2="300" y2="90" style="stroke:red;stroke-width:2" />
     <line x1="280" y1="360" x2="240" y2="310" style="stroke:red;stroke-width:2" />
+    <text x="200" y="300" fill="red" font-size="15" transform="rotate(50 200,300)">calle 26</text>
     <line x1="240" y1="310" x2="200" y2="280" style="stroke:red;stroke-width:2" />
     <line x1="200" y1="280" x2="180" y2="250" style="stroke:red;stroke-width:2" />
     <line x1="180" y1="250" x2="150" y2="100" style="stroke:red;stroke-width:2" />
+    <line x1="180" y1="250" x2="250" y2="190" style="stroke:red;stroke-width:2" />
+    <line x1="250" y1="190" x2="180" y2="100" style="stroke:red;stroke-width:2" />
+    <line x1="250" y1="190" x2="280" y2="90" style="stroke:red;stroke-width:2" />
+    <line x1="180" y1="250" x2="100" y2="300" style="stroke:red;stroke-width:2" />
+    <text x="100" y="280" fill="red" font-size="15" transform="rotate(330 100,280)">Av carrera 50</text>
+    <polygon points="190,230 240,190 160,100" style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+    <polygon points="260,190 305,238 290,100" style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+    <polygon points="160,220 140,100 80,100 100,250" style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+    <polygon points="175,280 260,390 180,500 120,320" style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+    <polygon points="300,390 350,300 320,100 400,100 400,300 400,390" style="fill:black;stroke:black;stroke-width:3;opacity:0.5" />
+
+
+    
+
+    
+
+    
+
+    
+
 
 
 

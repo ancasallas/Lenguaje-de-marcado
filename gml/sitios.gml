@@ -5,73 +5,83 @@
      xmlns:un="http://udistrital.edu.co/un">
   <gml:boundedBy>
     <gml:Box>
-      <gml:coord><gml:X>-74.094696</gml:X><gml:Y>4.623074</gml:Y><gml:Z>0</gml:Z></gml:coord>
-      <gml:coord><gml:X>-74.077272</gml:X><gml:Y>4.643988</gml:Y><gml:Z>0</gml:Z></gml:coord>
+      <gml:coord><gml:X>-74.099012</gml:X><gml:Y>4.624486</gml:Y><gml:Z>0</gml:Z></gml:coord>
+      <gml:coord><gml:X>-74.068929</gml:X><gml:Y>4.653174</gml:Y><gml:Z>0</gml:Z></gml:coord>
     </gml:Box>
   </gml:boundedBy>                                                        
   <gml:featureMember>
     <un:sitios id="1">
       <un:geometryProperty>
-	  <gml:Point>
+	  <gml:Point srsName="EPSG:4326">
 		<gml:coordinates>
-			-74.08262041561544,4.637202663536728,0
+			-74.088659,4.628107,0
 	    </gml:coordinates>
 	  </gml:Point>
 	  </un:geometryProperty>
-      <un:Nombre>Facultad de ingeniera</un:Nombre>
-      <un:descripcion>Educativo</un:descripcion>
+      <un:Nombre>Coorferias</un:Nombre>
+      <un:descripcion>sitio</un:descripcion>
+      <un:tipo>Centro de convenciones</un:tipo>
+      <un:direccion>Calle 26 # 25 - 50</un:direccion>
     </un:sitios>
   </gml:featureMember>
   <gml:featureMember>
     <un:sitios id="2">
       <un:geometryProperty>
-		<gml:Point>
+		<gml:Point srsName="EPSG:4326">
 			<gml:coordinates>
-				-74.08262041561544,4.637202663536728,0
+				-74.075109,4.629188,0
 			</gml:coordinates>
 		</gml:Point>
 		</un:geometryProperty>
-      <un:Nombre>Facultad de medicina</un:Nombre>
-      <un:descripcion>Educativo</un:descripcion>
+      <un:Nombre>Park way</un:Nombre>
+      <un:descripcion>sitio</un:descripcion>
+      <un:tipo>Parque</un:tipo>
+      <un:direccion>Calle 45 # 24 - 50</un:direccion>
     </un:sitios>
   </gml:featureMember>
   <gml:featureMember>
     <un:sitios id="3">
       <un:geometryProperty>
-		<gml:Point>
+		<gml:Point srsName="EPSG:4326">
 			<gml:coordinates>
-				-74.08135156758568,4.64278403234137,0
+				-74.077548,4.645660,0
 			</gml:coordinates>
 		</gml:Point>
 		</un:geometryProperty>
-      <un:Nombre>Museo de Historia Natural</un:Nombre>
-      <un:descripcion>Educativo</un:descripcion>
+      <un:Nombre>Estadio Nemesio camacho el campin</un:Nombre>
+      <un:descripcion>sitio</un:descripcion>
+      <un:tipo>Deportivo</un:tipo>
+      <un:direccion>Calle 57 # 28 - 50</un:direccion>
     </un:sitios>
   </gml:featureMember>
   <gml:featureMember>
     <un:sitios id="4">
       <un:geometryProperty>
-		<gml:Point>
+		<gml:Point srsName="EPSG:4326">
 			<gml:coordinates>
-				-74.08520871233745,4.640158520971871,0
+				-74.074309,4.641770,0
 			</gml:coordinates>
 		</gml:Point>
 		</un:geometryProperty>
-      <un:Nombre>Estadio Alfonso López Pumarejo</un:Nombre>
-      <un:descripcion>Deportivo</un:descripcion>
+      <un:Nombre>Centro comercial galerias</un:Nombre>
+      <un:descripcion>sitio</un:descripcion>
+      <un:tipo>Comercial</un:tipo>
+      <un:direccion>Calle 57 # 28 - 50</un:direccion>
     </un:sitios>
   </gml:featureMember>
   <gml:featureMember>
     <un:sitios id="5">
       <un:geometryProperty>
-		<gml:Point>
+		<gml:Point srsName="EPSG:4326">
 			<gml:coordinates>
-				-74.08342300795834,4.63669479317984,0
+				-74.095325,4.633618,0
 			</gml:coordinates>
 		</gml:Point>
 		</un:geometryProperty>
-      <un:Nombre>Sede Bogota Universidad Nacional</un:Nombre>
-      <un:descripcion>centro ubicacion</un:descripcion>
+      <un:Nombre>Barrio Quinta paredes</un:Nombre>
+      <un:descripcion>sitio</un:descripcion>
+      <un:tipo>Residencial</un:tipo>
+      <un:direccion>Calle 45 # 24 - 50</un:direccion>
     </un:sitios>
   </gml:featureMember>
 </un:FeatureCollection>

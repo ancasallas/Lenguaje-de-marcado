@@ -2,48 +2,48 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Folder>
   <Placemark>
-    <name>Facultad de ingeniera</name>
+    <name>Coorferias</name>
     <description>
-		Educativo
+		Centro de convenciones
     </description>
     <Point>
-      <coordinates>-74.08262041561544,4.637202663536728,0</coordinates>
+      <coordinates>-74.088659,4.628107,0</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Facultad de medicina</name>
+    <name>Park way</name>
     <description>
-		Educativo
+		Parque
     </description>
     <Point>
-      <coordinates>-74.08262041561544,4.637202663536728,0</coordinates>
+      <coordinates>-74.075109,4.629188,0</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Museo de Historia Natural</name>
+    <name>Estadio Nemesio camacho el campin</name>
     <description>
-		Educativo
+		Deportivo
     </description>
     <Point>
-      <coordinates>-74.08135156758568,4.64278403234137,0</coordinates>
+      <coordinates>-74.077548,4.645660,0</coordinates>
     </Point>
   </Placemark>
   <Placemark>
-    <name>Estadio Alfonso López Pumarejo</name>
+    <name>Centro comercial galerias</name>
     <description>
-		Educativo
+		Comercial
     </description>
     <Point>
-      <coordinates>-74.08520871233745,4.640158520971871,0</coordinates>
+      <coordinates>-74.074309,4.641770,0</coordinates>
     </Point>
   </Placemark>
    <Placemark>
-    <name>Sede Bogota Universidad Nacional</name>
+    <name>Barrio Quinta paredes</name>
     <description>
-		Educativo
+		Residencial
     </description>
     <Point>
-      <coordinates>-74.08342300795834,4.63669479317984,0</coordinates>
+      <coordinates>-74.095325,4.633618,0</coordinates>
     </Point>
   </Placemark>
   </Folder>
