@@ -1,585 +1,685 @@
 <?xml version="1.0" encoding="utf-8"?>
-<facturacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/squema.xsd">&gt;
+<facturacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/squema.xsd">
 
-	<factura>
-	<encabezado>
-	<fecha><dia>10</dia><mes>07</mes><año>2025</año></fecha>
-	<cliente>Ministerio Minas y Energia</cliente>
-	<NIT>899999022-1</NIT>
-	<Razon_social>Publica</Razon_social>
-	<telefono>12200300</telefono>
-	<dirreccion>Calle 43 # 57 -31, Can, Bogota</dirreccion>
-	</encabezado>
-	<servicio>
-		<descripcion>Evaluación y análisis espacial</descripcion>
-		<subservicio>
-			<descripcion>Identificación de áreas de influencia</descripcion>
-			<actividad>Georreferenciación dron</actividad>
-				<precio>1.00.000$cop</precio>
-				<unidad>50</unidad>
-				<medida>m2</medida>
-			
-		</subservicio>
-		
-		<subservicio>
-			<descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-			<actividad>consultoria Herramientas SIG</actividad>
-				<precio>170.000$cop</precio>
-				<unidad>1</unidad>
-				<medida>hora</medida>	
-		</subservicio>
-		
-		<subservicio>
-			<descripcion>modelacion de riesgos riesgos ambientales, sociales y economico</descripcion>
-			<actividad> Mapas modelacion riesgos </actividad>
-				<precio>200.000$ </precio>
-				<unidad>2</unidad>
-				<medida>UN</medida>
-		</subservicio>
-		
-	</servicio>
-	<servicio>
-		<descripcion>Coordinación de proyectos geoespaciales</descripcion>
-		<subservicio>
-			<descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-			<actividad>comisión topografica</actividad>
-				<precio>600.000$cop</precio>
-				<unidad>1</unidad>
-				<medida>dia</medida>
-		</subservicio>
-		
-		<subservicio>
-			<descripcion>Estandarización de procesos cartográficos y de datos.</descripcion>
-			<actividad>planos CTM12 </actividad>
-				<precio>100.000$ </precio>
-				<unidad>3</unidad>
-				<medida>UN</medida>
-		</subservicio>
-	</servicio>
-		
-	</factura>
+  <factura>
+    <encabezado>
+      <fecha><dia>10</dia><mes>07</mes><ano>2025</ano></fecha>
+      <cliente>Ministerio Minas y Energia</cliente>
+      <NIT>899999022-1</NIT>
+      <Razon_social>Publica</Razon_social>
+      <telefono>12200300</telefono>
+      <dirreccion>Calle 43 # 57 -31, Can, Bogota</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Georreferenciación dron</actividad>
+        <precio>1.00.000$cop</precio>
+        <unidad>50</unidad>
+        <medida>m2</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>consultoria Herramientas SIG</actividad>
+        <precio>170.000$cop</precio>
+        <unidad>1</unidad>
+        <medida>hora</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>modelacion de riesgos riesgos ambientales, sociales y economico</descripcion>
+        <actividad> Mapas modelacion riesgos </actividad>
+        <precio>200.000$</precio>
+        <unidad>2</unidad>
+        <medida>UN</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>comisión topografica</actividad>
+        <precio>600.000$cop</precio>
+        <unidad>1</unidad>
+        <medida>dia</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos.</descripcion>
+        <actividad>planos CTM12 </actividad>
+        <precio>100.000$</precio>
+        <unidad>3</unidad>
+        <medida>UN</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-	<factura>
-  <encabezado>
-    <fecha><dia>20</dia><mes>06</mes><año>2025</año></fecha>
-    <cliente>Agencia Nacional de Minería (ANM)</cliente>
-    <NIT>900500018-2</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012201999</telefono>
-    <dirreccion>Avenida Calle 26 No. 59-51 Torre 4 Piso 8, Bogotá D.C.</dirreccion>
-  </encabezado>
+  <factura>
+    <encabezado>
+      <fecha><dia>20</dia><mes>06</mes><ano>2025</ano></fecha>
+      <cliente>Agencia Nacional de Minería (ANM)</cliente>
+      <NIT>900500018-2</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012201999</telefono>
+      <dirreccion>Avenida Calle 26 No. 59-51 Torre 4 Piso 8, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Geoprocesamiento SIG</actividad>
+        <precio>320000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Matriz de criterios</actividad>
+        <precio>280000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Mapa de riesgos</actividad>
+        <precio>300000</precio>
+        <unidad>2</unidad>
+        <medida>mapa</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Coordinación técnica</actividad>
+        <precio>450000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Protocolos y QA/QC</actividad>
+        <precio>210000</precio>
+        <unidad>1</unidad>
+        <medida>entregable</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Diseño GDB</actividad>
+        <precio>260000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>ETL geoespacial</actividad>
+        <precio>180000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Acompañamiento técnico</actividad>
+        <precio>350000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Geoprocesamiento SIG</actividad>
-      <precio>320000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Matriz de criterios</actividad>
-      <precio>280000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Mapa de riesgos</actividad>
-      <precio>300000</precio><unidad>2</unidad><medida>mapa</medida>
-    </subservicio>
-  </servicio>
+  <factura>
+    <encabezado>
+      <fecha><dia>05</dia><mes>05</mes><ano>2025</ano></fecha>
+      <cliente>Unidad de Planeación Minero-Energética (UPME)</cliente>
+      <NIT>830000282-1</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012220601</telefono>
+      <dirreccion>Avenida Calle 26 No. 69D-91 Torre 1 Piso 9, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Buffers y radios</actividad>
+        <precio>290000</precio>
+        <unidad>1</unidad>
+        <medida>estudio</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Escenarios 2030-2050</actividad>
+        <precio>520000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Índices de riesgo</actividad>
+        <precio>310000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>PMO geoespacial</actividad>
+        <precio>470000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Lineamientos UPME</actividad>
+        <precio>230000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Modelado entidad-relación</actividad>
+        <precio>300000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Normalización</actividad>
+        <precio>160000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Mesas técnicas</actividad>
+        <precio>330000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Coordinación técnica</actividad>
-      <precio>450000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Protocolos y QA/QC</actividad>
-      <precio>210000</precio><unidad>1</unidad><medida>entregable</medida>
-    </subservicio>
-  </servicio>
+  <factura>
+    <encabezado>
+      <fecha><dia>30</dia><mes>04</mes><ano>2025</ano></fecha>
+      <cliente>Autoridad Nacional de Licencias Ambientales (ANLA)</cliente>
+      <NIT>900467239-2</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012540100</telefono>
+      <dirreccion>Carrera 13A No. 34-72, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>AOI licenciamiento</actividad>
+        <precio>340000</precio>
+        <unidad>1</unidad>
+        <medida>expediente</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Ponderación V.M.A.</actividad>
+        <precio>250000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Matriz de riesgo</actividad>
+        <precio>320000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Articulación con evaluadores</actividad>
+        <precio>420000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Especificaciones ANLA</actividad>
+        <precio>200000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Estructura expedientes</actividad>
+        <precio>270000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Control de calidad</actividad>
+        <precio>170000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Acompañamiento EIA</actividad>
+        <precio>360000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Diseño GDB</actividad>
-      <precio>260000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>ETL geoespacial</actividad>
-      <precio>180000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Acompañamiento técnico</actividad>
-      <precio>350000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
+  <factura>
+    <encabezado>
+      <fecha><dia>12</dia><mes>03</mes><ano>2025</ano></fecha>
+      <cliente>Agencia Nacional de Hidrocarburos (ANH)</cliente>
+      <NIT>830115122-3</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012346000</telefono>
+      <dirreccion>Carrera 7 No. 71-21 Torre B Piso 10, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Bloques y rondas</actividad>
+        <precio>310000</precio>
+        <unidad>1</unidad>
+        <medida>bloque</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Ranking prospectividad</actividad>
+        <precio>290000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Riesgo socioambiental</actividad>
+        <precio>300000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Interoperabilidad ANH</actividad>
+        <precio>430000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Esquemas de metadatos</actividad>
+        <precio>210000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Repositorio contratos</actividad>
+        <precio>280000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Validación topológica</actividad>
+        <precio>180000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Articulación territorial</actividad>
+        <precio>340000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-<factura>
-  <encabezado>
-    <fecha><dia>05</dia><mes>05</mes><año>2025</año></fecha>
-    <cliente>Unidad de Planeación Minero-Energética (UPME)</cliente>
-    <NIT>830000282-1</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012220601</telefono>
-    <dirreccion>Avenida Calle 26 No. 69D-91 Torre 1 Piso 9, Bogotá D.C.</dirreccion>
-  </encabezado>
+  <factura>
+    <encabezado>
+      <fecha><dia>08</dia><mes>02</mes><ano>2025</ano></fecha>
+      <cliente>Comisión de Regulación de Energía y Gas (CREG)</cliente>
+      <NIT>830003830-1</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012207744</telefono>
+      <dirreccion>Carrera 13 No. 28-01 Piso 14, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Impacto redes</actividad>
+        <precio>270000</precio>
+        <unidad>1</unidad>
+        <medida>estudio</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Escenarios tarifarios</actividad>
+        <precio>310000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Riesgo servicio</actividad>
+        <precio>290000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Comités técnicos</actividad>
+        <precio>400000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Lineamientos CREG</actividad>
+        <precio>190000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Catálogo de redes</actividad>
+        <precio>260000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Homologación</actividad>
+        <precio>160000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Compatibilidad POT</actividad>
+        <precio>320000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Buffers y radios</actividad>
-      <precio>290000</precio><unidad>1</unidad><medida>estudio</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Escenarios 2030-2050</actividad>
-      <precio>520000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Índices de riesgo</actividad>
-      <precio>310000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
+  <factura>
+    <encabezado>
+      <fecha><dia>25</dia><mes>01</mes><ano>2025</ano></fecha>
+      <cliente>Servicio Geológico Colombiano (SGC)</cliente>
+      <NIT>899999294-8</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6012200200</telefono>
+      <dirreccion>Diagonal 53 No. 34-53, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Zonas volcánicas</actividad>
+        <precio>330000</precio>
+        <unidad>1</unidad>
+        <medida>estudio</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Vulnerabilidad</actividad>
+        <precio>260000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Amenaza y riesgo</actividad>
+        <precio>300000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Misiones de campo</actividad>
+        <precio>410000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Normas cartográficas</actividad>
+        <precio>200000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>GDB geológica</actividad>
+        <precio>280000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Curaduría datos</actividad>
+        <precio>170000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Soporte POT</actividad>
+        <precio>310000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>PMO geoespacial</actividad>
-      <precio>470000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Lineamientos UPME</actividad>
-      <precio>230000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
+  <factura>
+    <encabezado>
+      <fecha><dia>14</dia><mes>09</mes><ano>2025</ano></fecha>
+      <cliente>Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE)</cliente>
+      <NIT>830003831-2</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>6013150700</telefono>
+      <dirreccion>Carrera 10 No. 15-97, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>ZNI y coberturas</actividad>
+        <precio>300000</precio>
+        <unidad>1</unidad>
+        <medida>estudio</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Sitios óptimos PV</actividad>
+        <precio>280000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Riesgo de suministro</actividad>
+        <precio>290000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Intervención ZNI</actividad>
+        <precio>420000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Plantillas IPSE</actividad>
+        <precio>190000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>Inventario ZNI</actividad>
+        <precio>260000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Consolidación</actividad>
+        <precio>160000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Lineamientos territoriales</actividad>
+        <precio>300000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Modelado entidad-relación</actividad>
-      <precio>300000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Normalización</actividad>
-      <precio>160000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Mesas técnicas</actividad>
-      <precio>330000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
+  <factura>
+    <encabezado>
+      <fecha><dia>03</dia><mes>11</mes><ano>2025</ano></fecha>
+      <cliente>Empresa Colombiana de Petróleos (Ecopetrol S.A.)</cliente>
+      <NIT>899999068-1</NIT>
+      <Razon_social>Sociedad Anónima</Razon_social>
+      <telefono>6012345000</telefono>
+      <dirreccion>Calle 37 No. 8-43, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio>
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Corredores oleoducto</actividad>
+        <precio>360000</precio>
+        <unidad>1</unidad>
+        <medida>tramo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
+        <actividad>Siting facilidades</actividad>
+        <precio>320000</precio>
+        <unidad>1</unidad>
+        <medida>modelo</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
+        <actividad>Riesgo operacional</actividad>
+        <precio>340000</precio>
+        <unidad>1</unidad>
+        <medida>informe</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Coordinación de proyectos geoespaciales</descripcion>
+      <subservicio>
+        <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
+        <actividad>Supervisión de campo</actividad>
+        <precio>520000</precio>
+        <unidad>1</unidad>
+        <medida>día</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
+        <actividad>Procedimientos internos</actividad>
+        <precio>240000</precio>
+        <unidad>1</unidad>
+        <medida>guía</medida>
+      </subservicio>
+    </servicio>
+    <servicio>
+      <descripcion>Gestión y consultoría</descripcion>
+      <subservicio>
+        <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
+        <actividad>GDB de infraestructura</actividad>
+        <precio>320000</precio>
+        <unidad>1</unidad>
+        <medida>gdb</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
+        <actividad>Validación QA/QC</actividad>
+        <precio>190000</precio>
+        <unidad>1</unidad>
+        <medida>lote</medida>
+      </subservicio>
+      <subservicio>
+        <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
+        <actividad>Relación comunidad</actividad>
+        <precio>350000</precio>
+        <unidad>1</unidad>
+        <medida>sesión</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-<factura>
-  <encabezado>
-    <fecha><dia>30</dia><mes>04</mes><año>2025</año></fecha>
-    <cliente>Autoridad Nacional de Licencias Ambientales (ANLA)</cliente>
-    <NIT>900467239-2</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012540100</telefono>
-    <dirreccion>Carrera 13A No. 34-72, Bogotá D.C.</dirreccion>
-  </encabezado>
+  <factura>
+    <encabezado>
+      <fecha><dia>10</dia><mes>07</mes><ano>2025</ano></fecha>
+      <cliente>Agencia Nacional de Tierras (ANT)</cliente>
+      <NIT>900948953-8</NIT>
+      <Razon_social>Pública</Razon_social>
+      <telefono>018000933881</telefono>
+      <dirreccion>Carrera 7 No. 71-21 Torre B Piso 2, Bogotá D.C.</dirreccion>
+    </encabezado>
+    <servicio id="1">
+      <descripcion>Evaluación y análisis espacial</descripcion>
+      <subservicio>
+        <descripcion>Identificación de áreas de influencia</descripcion>
+        <actividad>Georreferenciación dron</actividad>
+        <precio>1.200.000$cop</precio>
+        <unidad>60</unidad>
+        <medida>m2</medida>
+      </subservicio>
+    </servicio>
+  </factura>
 
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>AOI licenciamiento</actividad>
-      <precio>340000</precio><unidad>1</unidad><medida>expediente</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Ponderación V.M.A.</actividad>
-      <precio>250000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Matriz de riesgo</actividad>
-      <precio>320000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Articulación con evaluadores</actividad>
-      <precio>420000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Especificaciones ANLA</actividad>
-      <precio>200000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Estructura expedientes</actividad>
-      <precio>270000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Control de calidad</actividad>
-      <precio>170000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Acompañamiento EIA</actividad>
-      <precio>360000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-
-<factura>
-  <encabezado>
-    <fecha><dia>12</dia><mes>03</mes><año>2025</año></fecha>
-    <cliente>Agencia Nacional de Hidrocarburos (ANH)</cliente>
-    <NIT>830115122-3</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012346000</telefono>
-    <dirreccion>Carrera 7 No. 71-21 Torre B Piso 10, Bogotá D.C.</dirreccion>
-  </encabezado>
-
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Bloques y rondas</actividad>
-      <precio>310000</precio><unidad>1</unidad><medida>bloque</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Ranking prospectividad</actividad>
-      <precio>290000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Riesgo socioambiental</actividad>
-      <precio>300000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Interoperabilidad ANH</actividad>
-      <precio>430000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Esquemas de metadatos</actividad>
-      <precio>210000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Repositorio contratos</actividad>
-      <precio>280000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Validación topológica</actividad>
-      <precio>180000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Articulación territorial</actividad>
-      <precio>340000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-
-<factura>
-  <encabezado>
-    <fecha><dia>08</dia><mes>02</mes><año>2025</año></fecha>
-    <cliente>Comisión de Regulación de Energía y Gas (CREG)</cliente>
-    <NIT>830003830-1</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012207744</telefono>
-    <dirreccion>Carrera 13 No. 28-01 Piso 14, Bogotá D.C.</dirreccion>
-  </encabezado>
-
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Impacto redes</actividad>
-      <precio>270000</precio><unidad>1</unidad><medida>estudio</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Escenarios tarifarios</actividad>
-      <precio>310000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Riesgo servicio</actividad>
-      <precio>290000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Comités técnicos</actividad>
-      <precio>400000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Lineamientos CREG</actividad>
-      <precio>190000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Catálogo de redes</actividad>
-      <precio>260000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Homologación</actividad>
-      <precio>160000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Compatibilidad POT</actividad>
-      <precio>320000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-
-<factura>
-  <encabezado>
-    <fecha><dia>25</dia><mes>01</mes><año>2025</año></fecha>
-    <cliente>Servicio Geológico Colombiano (SGC)</cliente>
-    <NIT>899999294-8</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6012200200</telefono>
-    <dirreccion>Diagonal 53 No. 34-53, Bogotá D.C.</dirreccion>
-  </encabezado>
-
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Zonas volcánicas</actividad>
-      <precio>330000</precio><unidad>1</unidad><medida>estudio</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Vulnerabilidad</actividad>
-      <precio>260000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Amenaza y riesgo</actividad>
-      <precio>300000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Misiones de campo</actividad>
-      <precio>410000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Normas cartográficas</actividad>
-      <precio>200000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>GDB geológica</actividad>
-      <precio>280000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Curaduría datos</actividad>
-      <precio>170000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Soporte POT</actividad>
-      <precio>310000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-
-<factura>
-  <encabezado>
-    <fecha><dia>14</dia><mes>09</mes><año>2025</año></fecha>
-    <cliente>Instituto de Planificación y Promoción de Soluciones Energéticas (IPSE)</cliente>
-    <NIT>830003831-2</NIT>
-    <Razon_social>Pública</Razon_social>
-    <telefono>6013150700</telefono>
-    <dirreccion>Carrera 10 No. 15-97, Bogotá D.C.</dirreccion>
-  </encabezado>
-
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>ZNI y coberturas</actividad>
-      <precio>300000</precio><unidad>1</unidad><medida>estudio</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Sitios óptimos PV</actividad>
-      <precio>280000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Riesgo de suministro</actividad>
-      <precio>290000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Intervención ZNI</actividad>
-      <precio>420000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Plantillas IPSE</actividad>
-      <precio>190000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>Inventario ZNI</actividad>
-      <precio>260000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Consolidación</actividad>
-      <precio>160000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Lineamientos territoriales</actividad>
-      <precio>300000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-
-<factura>
-  <encabezado>
-    <fecha><dia>03</dia><mes>11</mes><año>2025</año></fecha>
-    <cliente>Empresa Colombiana de Petróleos (Ecopetrol S.A.)</cliente>
-    <NIT>899999068-1</NIT>
-    <Razon_social>Sociedad Anónima</Razon_social>
-    <telefono>6012345000</telefono>
-    <dirreccion>Calle 37 No. 8-43, Bogotá D.C.</dirreccion>
-  </encabezado>
-
-  <servicio>
-    <descripcion>Evaluación y análisis espacial</descripcion>
-    <subservicio>
-      <descripcion>Identificación de áreas de influencia</descripcion>
-      <actividad>Corredores oleoducto</actividad>
-      <precio>360000</precio><unidad>1</unidad><medida>tramo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Análisis multicriterio para la toma de decisiones</descripcion>
-      <actividad>Siting facilidades</actividad>
-      <precio>320000</precio><unidad>1</unidad><medida>modelo</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Modelación de riesgos ambientales, sociales y económicos</descripcion>
-      <actividad>Riesgo operacional</actividad>
-      <precio>340000</precio><unidad>1</unidad><medida>informe</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Coordinación de proyectos geoespaciales</descripcion>
-    <subservicio>
-      <descripcion>Integración de equipos técnicos en proyectos con componente SIG</descripcion>
-      <actividad>Supervisión de campo</actividad>
-      <precio>520000</precio><unidad>1</unidad><medida>día</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Estandarización de procesos cartográficos y de datos</descripcion>
-      <actividad>Procedimientos internos</actividad>
-      <precio>240000</precio><unidad>1</unidad><medida>guía</medida>
-    </subservicio>
-  </servicio>
-
-  <servicio>
-    <descripcion>Gestión y consultoría</descripcion>
-    <subservicio>
-      <descripcion>Creación y gestión de geodatabases (PostGIS, ArcGIS, QGIS)</descripcion>
-      <actividad>GDB de infraestructura</actividad>
-      <precio>320000</precio><unidad>1</unidad><medida>gdb</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Limpieza, validación y estandarización de datos espaciales</descripcion>
-      <actividad>Validación QA/QC</actividad>
-      <precio>190000</precio><unidad>1</unidad><medida>lote</medida>
-    </subservicio>
-    <subservicio>
-      <descripcion>Asesoría en implementación de proyectos de ordenamiento territorial</descripcion>
-      <actividad>Relación comunidad</actividad>
-      <precio>350000</precio><unidad>1</unidad><medida>sesión</medida>
-    </subservicio>
-  </servicio>
-</factura>
-<factura>
-		<encabezado>
-			<fecha><dia>10</dia><mes>07</mes><año>2025</año></fecha>
-			<cliente>Agencia Nacional de Tierras (ANT)</cliente>
-			<NIT>900948953-8</NIT>
-			<Razon_social>Pública</Razon_social>
-			<telefono>018000933881</telefono>
-			<dirreccion>Carrera 7 No. 71-21 Torre B Piso 2, Bogotá D.C.</dirreccion>
-		</encabezado>
-		<servicio id="1">
-			<descripcion>Evaluación y análisis espacial</descripcion>
-			<subservicio>
-				<descripcion>Identificación de áreas de influencia</descripcion>
-				<actividad>Georreferenciación dron</actividad>
-				<precio>1.200.000$cop</precio>
-				<unidad>60</unidad>
-				<medida>m2</medida>
-			</subservicio>
-		</servicio>
-	</factura>
 </facturacion>
