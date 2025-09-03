@@ -20,14 +20,14 @@ img{
   display:block;
 }
 .primero{
-	color: 121212;
+	color: #121212;
 	font-family: arial;
 	font-size: 30px;	
 	text-align: center;
 }
 .segundo{
 	color: #121212;
-	font-family: arial;
+	font-family: sans-serif;
 	font-size: 100%;	
 	text-align: left;
 }
@@ -41,7 +41,7 @@ p {
 }
 h2{
   color: #100058;
-  font-family: arial;
+  font-family: sans-serif;
   font-size: 150%;	
   
 }
@@ -59,17 +59,18 @@ pre {
 	font-size: 80%;	
   
 }
-.bordec {
-  background-color: #bddbff;
-  color: #21211d;
-  padding: 10px 20px;
-  border-radius: 20px;
-  text-align: center;
-  font-family: arial;
-  font-size: 25px;	
-  max-width: 600px;       
-  margin: 20px auto;   
- 
+.bordec { 
+  background-color: #bddbff; 
+  color: #21211d; 
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-align: center; 
+  font-family: arial; 
+  font-size: 25px; 
+  max-width: 600px; 
+  margin: 20px auto; 
+  text-decoration: none; 
+   
 }
 
 .borde {
@@ -79,19 +80,14 @@ pre {
   border-radius: 20px;
   text-align: left;
   font-family: arial;
-  font-size: 20px;
-  max-width: 400px;
+  font-size: 10px;
+  max-width: 600px;
  
 }
 nav ul li {
   margin-bottom: 25px; 
 }
 
-.mapa {
-  width: 100%; 
-  height: 100%;  
-  display: block;
-}
 
 * {
   box-sizing: border-box;
@@ -114,8 +110,8 @@ header {
 nav {
   float: right;
   width: 30%;
-  height: 80vh; /* only for demonstration, should be removed */
-  background: #fafeff;
+  height: 78vh; /* only for demonstration, should be removed */
+  background:#f0f5f8;
  
 }
 
@@ -130,7 +126,7 @@ article {
   padding: 50px;
   width: 70%;
   background-color: #fafeff;
-  height: 80vh; /* only for demonstration, should be removed */
+  height: 78vh; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -142,7 +138,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #f1faff;
+  background-color: #f0f5f8;
   padding: 10px;
   text-align: center;
   color: #21211d;
