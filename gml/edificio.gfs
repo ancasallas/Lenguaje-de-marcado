@@ -1,0 +1,29 @@
+<GMLFeatureClassList>
+  <GMLFeatureClass>
+    <Name>edificio</Name>
+    <ElementPath>edificio</ElementPath>
+    <GeometryName>geometryProperty</GeometryName>
+    <GeometryElementPath>geometryProperty</GeometryElementPath>
+    <!--POLYGONZ-->
+    <GeometryType>-2147483645</GeometryType>
+    <DatasetSpecificInfo>
+      <FeatureCount>3</FeatureCount>
+      <ExtentXMin>-74.08506</ExtentXMin>
+      <ExtentXMax>-74.08261</ExtentXMax>
+      <ExtentYMin>4.63591</ExtentYMin>
+      <ExtentYMax>4.63794</ExtentYMax>
+    </DatasetSpecificInfo>
+    <PropertyDefn>
+      <Name>Description</Name>
+      <ElementPath>Description</ElementPath>
+      <Type>String</Type>
+      <Width>23</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>Nombre</Name>
+      <ElementPath>Nombre</ElementPath>
+      <Type>String</Type>
+      <Width>21</Width>
+    </PropertyDefn>
+  </GMLFeatureClass>
+</GMLFeatureClassList>

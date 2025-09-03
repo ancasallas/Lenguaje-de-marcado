@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Folder>
+  <Placemark>
+    <name>Facultad de ingeniera</name>
+    <description>
+		Educativo
+    </description>
+    <Point>
+      <coordinates>-74.08262041561544,4.637202663536728,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Facultad de medicina</name>
+    <description>
+		Educativo
+    </description>
+    <Point>
+      <coordinates>-74.08262041561544,4.637202663536728,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Museo de Historia Natural</name>
+    <description>
+		Educativo
+    </description>
+    <Point>
+      <coordinates>-74.08135156758568,4.64278403234137,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Estadio Alfonso López Pumarejo</name>
+    <description>
+		Educativo
+    </description>
+    <Point>
+      <coordinates>-74.08520871233745,4.640158520971871,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Sede Bogota Universidad Nacional</name>
+    <description>
+		Educativo
+    </description>
+    <Point>
+      <coordinates>-74.08342300795834,4.63669479317984,0</coordinates>
+    </Point>
+  </Placemark>
+  </Folder>
+</kml>
